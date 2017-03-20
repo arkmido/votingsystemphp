@@ -1,0 +1,100 @@
+/*
+*	Contains custom styles and overriden bootstrap configs
+*	place your styles here
+*/
+
+/* ========= BASE STYLES =========== */
+.container {
+	margin: 20px auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
+/* ================================ */
+
+/* ========= LOGO =========== */
+#logo {
+	font-weight: bolder;
+	color: #ff5050;
+	font-size: 2.5em;
+}
+#logo:hover {
+	text-decoration: none;
+	color: #ff5050;
+}
+/* ========================== */
+
+
+/* ========= LOG-IN / REG =========== */
+.contain-form {
+	margin-left: 60%;
+}
+.logreg {
+	text-align: right;
+	top: 220px;
+	padding: 10px 30px;
+	margin-left: 0px;
+}
+/* ================================== */
+
+/* ========= MENU-NAV =========== */
+#menu ul {
+	overflow: auto;
+	margin-top: 2em;
+}
+#menu ul li {
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 1em;
+	font-size: 1.8em;
+	font-weight: bolder;
+	float: left;
+}
+#menu ul li a:hover, ul li:hover {
+	text-decoration: none;
+}
+ #menu li:nth-last-child(2), #menu li:last-child{
+	float: right;
+}
+/* ============================== */
+
+/* ===== TABLES ====== */
+#tbl
+{
+    text-align: left;
+    position: relative;
+	font-size: 1.6em;
+	max-width: 70%;
+	margin: 20px auto;
+}
+#tbl button {
+	float: right;
+
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #005599;
+   border-top: none;
+   border-bottom: none;
+ }
+ .table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   border-top: none;
+   border-bottom: none;
+ }
+
+/* ==================== */
+
+/* ====== SOME PROGRESS BAR ======= */
+.votes {
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+.progress {
+	height: 2.5em;
+	width: 80%;
+	margin: 20px auto;
+}
+/* ==================== */

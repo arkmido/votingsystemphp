@@ -1,0 +1,27 @@
+==============================================================================
+CREATED THREE PHP FILES UNDER inlcudes FOLDER FOR BACKEND FUNCTIONALITIES
+
+config.php - contains page configurations
+constants.php - contains db constants
+functions.php - contains helper functions 
+	* disp_error()		* dump()
+	* logout()		* query()
+	* redirect()		* render()
+		#see functions.php file for function descriptions
+==============================================================================
+CREATED TEMPLATES(CHUNKS OF HTML CODES) UNDER templates FOLDER  TO BE USED BY THE CONTROLLER PART
+
+* dump.php	* error.php
+* footer.php	* header.php
+* login_form.php
+
+THESE FILES ARE SEPARATED FOR MODULARITY AND DYNAMIC PROGRAMMING
+FUNCTIONS THAT COMBINE THESE TEMPLATES ARE UNDER THE public FOLDER
+==============================================================================
+CREATED public FOLDER FOR PUBLIC ACCESS. THESE FILES ARE THE CONTROLLERS
+AND CONTAINS MOST OF THE SYSTEM'S FUNCTIONALITIES
+
+* login.php
+
+UNDER PUBLICLY ACCESSIBLE FOLDERS ARE THE JS AND CSS FILES FOR DESIGNS
+FOLDERS: -css	-js [INITIAL FILES ARE: BOOTSTRAP CSS AND JS; JQUERY FILES]
